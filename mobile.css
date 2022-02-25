@@ -1,0 +1,44 @@
+html {
+    font-size: 8px;
+}
+
+body {
+    margin: auto;
+    padding: 5% 0% 5% 0%;
+    background-color: rgb(230, 230, 230);
+}
+
+#work {
+    display: none;
+    width: 90%;
+    margin: auto;
+}
+
+#work>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 90vh;
+    margin-bottom: 5%;
+}
+
+#work>span {
+    display: block;
+    margin-bottom: 5%;
+    font-size: 2.2rem;
+    line-height: 1.35;
+    font-family: sans-serif;
+}
+
+#work>span>h1 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+
+#sorry {
+    display: none;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
