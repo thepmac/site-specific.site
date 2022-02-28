@@ -2,15 +2,15 @@
 // 40.73528
 // -73.99472
 
-// MY HOME COORDINATES
-// 40.65738493092836
-// -73.9616219061852
+// PARK COORDINATES
+// 40.657372
+// -73.962403
 
 var userLat;
 var userLong;
 
-var targetLat = 40.65738493092836;
-var targetLong = -73.9616219061852;
+var targetLat = 40.657372;
+var targetLong = -73.962403;
 var latMax;
 var latMin;
 var longMax;
