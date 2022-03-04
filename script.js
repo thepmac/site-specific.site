@@ -2,6 +2,10 @@
 // 40.73528
 // -73.99472
 
+// E 16 COORDS
+// 40.737170363986486
+// -73.9924854207935
+
 // PARK COORDINATES
 // 40.65737258394538,
 // -73.96240390034623
@@ -79,7 +83,7 @@ function success(pos) {
         document.getElementById('work').style.display = "block";
     } else {
         document.getElementById('sorry').style.display = "block";
-        document.getElementById('sorry').innerHTML += `You are trying to access this website from:<br><br>${userLat},<br>${userLong}<br><br><br>This website can only be accessed from a maximum distance of 100m from:<br><br><a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">${targetLat},<br>${targetLong}</a>`;
+        document.getElementById('sorry').innerHTML += `You are trying to access this website from:<br><br>${userLat},<br>${userLong}<br><br><br>This website can only be accessed at a maximum distance of 100m from:<br><br><a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">${targetLat},<br>${targetLong}</a>`;
     }
 }
 
