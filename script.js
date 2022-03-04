@@ -3,14 +3,14 @@
 // -73.99472
 
 // PARK COORDINATES
-// 40.657372
-// -73.962403
+// 40.65737258394538,
+// -73.96240390034623
 
 var userLat;
 var userLong;
 
-var targetLat = 40.657372;
-var targetLong = -73.962403;
+var targetLat = 40.65737258394538;
+var targetLong = -73.96240390034623;
 var latMax;
 var latMin;
 var longMax;
@@ -79,7 +79,7 @@ function success(pos) {
         document.getElementById('work').style.display = "block";
     } else {
         document.getElementById('sorry').style.display = "block";
-        document.getElementById('sorry').innerHTML += `<a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">Try moving closer.</a>`;
+        document.getElementById('sorry').innerHTML += `You are trying to access this website from:<br><br>${userLat},<br>${userLong}<br><br><br>This website can only be accessed from a maximum distance of 100m from:<br><br><a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">${targetLat},<br>${targetLong}</a>`;
     }
 }
 
