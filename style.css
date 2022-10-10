@@ -9,7 +9,7 @@ body {
 }
 
 #work {
-    display: none;
+    /*display: none;*/
     width: 30%;
     margin: auto;
 }
